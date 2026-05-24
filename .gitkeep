@@ -1,0 +1,23 @@
+mkdir -p Data/processed/KPI_requirements
+mkdir -p Data/processed/clean_data
+mkdir -p Data/processed/bad_data
+mkdir -p Data/processed/flex_fare
+mkdir -p Data/figures
+mkdir -p Data/reports
+mkdir -p Data/src/source_clean
+mkdir -p Data/src/calcular_KPI
+mkdir -p Data/src/ML
+mkdir -p Data/src/source_figures
+
+touch Data/processed/.gitkeep
+touch Data/processed/KPI_requirements/.gitkeep
+touch Data/processed/clean_data/.gitkeep
+touch Data/processed/bad_data/.gitkeep
+touch Data/processed/flex_fare/.gitkeep
+touch Data/processed/KPI_requirements/.gitkeep
+touch Data/figures/.gitkeep
+touch Data/reports/.gitkeep
+touch Data/src/source_clean/.gitkeep
+touch Data/src/calcular_KPI/.gitkeep
+touch Data/src/ML/.gitkeep
+touch Data/src/source_figures/.gitkeep
