@@ -1,19 +1,14 @@
-
-Data/raw/*
-!Data/raw/.gitkeep
-Data/processed/**/*
-!Data/processed/**/.gitkeep
-Data/src/**/__pycache__/
-Data/src/**/*.pyc
+# Chặn các file rác hệ thống và code thừa
+src/**/__pycache__/
+src/**/*.pyc
 env/
 venv/
 .venv/
-.DS_Store
-Thumbs.db
 .idea/
 .vscode/
 *.ipynb_checkpoints/
 *.log
-*.parquet
-*.csv
 *.zip
+
+# TUYỆT ĐỐI KHÔNG VIẾT *.parquet VÀ *.csv Ở ĐÂY NỮA
+# Để trống hoàn toàn phần dữ liệu để Git tự do đẩy folder Data lên GitHub
