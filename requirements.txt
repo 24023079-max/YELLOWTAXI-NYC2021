@@ -11,6 +11,7 @@ plotly
 # Machine Learning / Forecasting
 scikit-learn
 prophet
+ipykernel
 
 # Utilities
 requests==2.32.5
