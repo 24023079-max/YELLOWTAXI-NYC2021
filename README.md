@@ -2,7 +2,7 @@
 Python Pandas Matplotlib
 
 📖 1. Tổng Quan Dự Án
-1.1. Tải dữ liệu thô: python download_data.py
+1.1. Tải dữ liệu thô: 
 
 Script này sẽ tự động tải dữ liệu từ nguồn chính thức: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
@@ -20,7 +20,6 @@ Data/processed/KPI_requirements/kpi_monthly_2021.csv Dự án này tập trung x
 Dưới đây là sơ đồ tổ chức file của nhóm:
 
 Thư mục / File	Loại	Mô tả chi tiết
-.idea/	⚙️	Cấu hình IDE (IntelliJ / PyCharm / VS Code).
 Data/raw/	🗄️	Dữ liệu thô ban đầu, chưa qua xử lý.
 Data/processed/	⚙️	Dữ liệu đã được xử lý và chuẩn hóa.
 Data/processed/KPI_requirements/	📑	Dữ liệu KPI cuối cùng dùng cho phân tích và trực quan hóa.
@@ -36,11 +35,10 @@ Data/src/source_clean/	🧹	Module làm sạch và kiểm tra dữ liệu.
 Data/src/source_figures/	📈	Module trực quan hóa dữ liệu và vẽ biểu đồ.
 download_data.py	⬇️	Script tải dữ liệu từ nguồn bên ngoài.
 pattern_clustering.ipynb	🔍	Notebook phân tích và phân cụm dữ liệu.
-.gitignore	🚫	Cấu hình Git ignore.
 README.md	📘	Hướng dẫn và mô tả tổng quan dự án.
 requirements.txt	📄	Danh sách thư viện Python cần cài đặt.
 Project-Root/
-├── .idea/                         # Cấu hình IDE
+├
 ├── Data/
 │   ├── figures/                   # 📊 Ảnh biểu đồ kết quả
 │   ├── raw/                       # Dữ liệu thô ban đầu
@@ -53,6 +51,7 @@ Project-Root/
 │   └── src/                       # Mã nguồn chính
 │       ├── ML/                    # Machine Learning & Forecast
 │       │   └── advanced_ml_forecast.ipynb
+|       |   |__ revenue.ipynb
 │       ├── calcular_KPI/          # Tính toán KPI
 │       │   └── KPI_requirement.ipynb
 │       ├── source_clean/          # Làm sạch dữ liệu
@@ -61,7 +60,7 @@ Project-Root/
 │       │   └── visualization.ipynb
 │       ├── download_data.py       # Script tải dữ liệu
 │       └── pattern_clustering.ipynb
-├── .gitignore                     # Cấu hình Git ignore
+├
 ├── README.md                      # Hướng dẫn dự án
 └── requirements.txt               # Thư viện cần thiết
 
